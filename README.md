@@ -13,3 +13,7 @@ workflow :
  * selected action will be perfomed on the selcted jsons
  * Mastery.py validate the json for a give action all requirement r there in json. if not it will ignore the json file and go fo the next one
  
+Nxt_shape_concatenate.py
+
+script will loop through individual folder and concate master_string.shp and string.shp seperatly 
+
