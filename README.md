@@ -2,18 +2,22 @@
 
 Master.py 
 
-Master file take path and jsons as input perform action on jsons actions like:
+Master script take path and jsons as inputs and perform action on the selected jsons, actions listed below:
+
 1: Remove Module Number
 2: Remove Temperature 
 3: Remove temp for missing module
 4: Remove string number
 
 workflow : 
- * as script excuted user get a list of actions (predefined actions) and a list of jsons file in current folder(Where master.py file loacated)
- * selected action will be perfomed on the selcted jsons
- * Mastery.py validate the json for a give action all requirement r there in json. if not it will ignore the json file and go fo the next one
+ * As the script executed user get a list of actions and jsons files (Json listed from the current folder where Script file located )
+ * Each json will go through validator function to get validated for selected action field present in it; if not validated it will get ignored  
+ * selected action will be perfomed on the selected jsons
+ * Modified Json files will get saved in output folder, output folder named after selected action
+
  
 Nxt_shape_concatenate.py
 
-script will loop through individual folder and concate master_string.shp and string.shp seperatly 
+* Scipt take path as input
+* script will loop through individual folder and concate master_string.shp and string.shp seperatly 
 
